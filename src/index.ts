@@ -1,5 +1,6 @@
 import { Job } from "./Job";
 import { Liver, Worker } from "./People";
+import { DBJob, DBWorker, DBLiver } from "./types";
 import fs from 'fs';
 
 const db = JSON.parse(fs.readFileSync("data.json", "utf-8"));
@@ -8,23 +9,6 @@ interface IOptions {
     Livers: Array<Liver>;
     Workers: Array<Worker>;
     AdditionalSpends: number;
-}
-
-type DBLiver = {
-    name: string;
-    entrance: number;
-    floor: number;
-    apartment: number;
-}
-
-type DBWorker = {
-    name: string;
-    job: number;
-}
-
-type DBJob = {
-    name: string;
-    payment: number;
 }
 
 const Jobs = db.jobs.map((job: DBJob)=>{
