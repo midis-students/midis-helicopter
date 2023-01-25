@@ -1,0 +1,19 @@
+{
+  "name": "heli",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/node": "^18.11.18",
+    "prettier": "^2.8.3",
+    "tsconfig-paths": "^4.1.2"
+  }
+}
