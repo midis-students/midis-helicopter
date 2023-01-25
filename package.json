@@ -1,0 +1,21 @@
+{
+  "name": "heli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Ikysu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.17"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^10.0.1",
+    "commander": "^10.0.0"
+  }
+}

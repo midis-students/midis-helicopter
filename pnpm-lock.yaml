@@ -1,0 +1,32 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@commander-js/extra-typings': ^10.0.1
+  '@types/node': ^18.11.17
+  commander: ^10.0.0
+
+dependencies:
+  '@commander-js/extra-typings': 10.0.1_commander@10.0.0
+  commander: 10.0.0
+
+devDependencies:
+  '@types/node': 18.11.18
+
+packages:
+
+  /@commander-js/extra-typings/10.0.1_commander@10.0.0:
+    resolution: {integrity: sha512-i3TAmvjq/ucOjsCLfzuJmtBTOsf/b0vmCR8/YWJwRiwm+nPuJPpBBs/YlU+6NPnHkqb85qiTO3Ys09Zui1jsfg==}
+    peerDependencies:
+      commander: 10.0.x
+    dependencies:
+      commander: 10.0.0
+    dev: false
+
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+    dev: true
+
+  /commander/10.0.0:
+    resolution: {integrity: sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==}
+    engines: {node: '>=14'}
+    dev: false
