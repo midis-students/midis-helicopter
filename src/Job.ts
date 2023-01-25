@@ -1,4 +1,4 @@
-export abstract class Job {
+export class Job {
     name: string;
     payment: number;
     
